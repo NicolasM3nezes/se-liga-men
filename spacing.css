@@ -1,0 +1,103 @@
+/* Ajustes finos de respiro e legibilidade */
+.landing-card{
+  gap:clamp(5px,1vh,10px);
+}
+
+.mini-brand{
+  letter-spacing:.09em;
+  line-height:1.2;
+}
+
+.kicker{
+  letter-spacing:.22em;
+  line-height:1.35;
+  margin-bottom:8px;
+}
+
+h1{
+  line-height:.96;
+  letter-spacing:-.012em;
+  word-spacing:.05em;
+}
+
+.subtitle{
+  line-height:1.58;
+  letter-spacing:.012em;
+  margin-top:14px;
+}
+
+.badges{
+  gap:10px;
+  margin-top:14px;
+}
+
+.badges span{
+  line-height:1.3;
+  padding:8px 14px;
+  letter-spacing:.01em;
+}
+
+.whatsapp-cta{
+  margin-top:15px;
+  min-height:80px;
+}
+
+.wa-copy{
+  gap:5px;
+  line-height:1.12;
+}
+
+.wa-copy strong{
+  letter-spacing:.025em;
+}
+
+.wa-copy small{
+  letter-spacing:.075em;
+  line-height:1.2;
+}
+
+.offer-line{
+  margin-top:13px;
+  line-height:1.5;
+  letter-spacing:.006em;
+}
+
+.last-call{
+  margin-top:10px;
+  line-height:1.35;
+  letter-spacing:.01em;
+}
+
+.affiliate-note{
+  margin-top:9px;
+  line-height:1.45;
+}
+
+@media(max-width:520px){
+  .landing-card{gap:3px}
+  .mini-brand{letter-spacing:.075em}
+  .kicker{letter-spacing:.18em;margin-bottom:6px}
+  h1{line-height:.95;letter-spacing:-.008em}
+  .subtitle{margin-top:11px;line-height:1.5;font-size:.78rem}
+  .badges{margin-top:11px;gap:8px}
+  .badges span{padding:7px 10px;line-height:1.25}
+  .whatsapp-cta{margin-top:12px;min-height:70px}
+  .wa-copy{gap:4px}
+  .wa-copy strong{line-height:1.15;letter-spacing:.018em}
+  .wa-copy small{line-height:1.15;letter-spacing:.055em}
+  .offer-line{margin-top:10px;line-height:1.45}
+  .last-call{margin-top:8px;line-height:1.3}
+  .affiliate-note{margin-top:7px;line-height:1.35}
+}
+
+@media(max-height:700px){
+  .landing-card{gap:1px}
+  .kicker{margin-bottom:4px}
+  h1{line-height:.93}
+  .subtitle{margin-top:7px;line-height:1.38}
+  .badges{margin-top:7px}
+  .whatsapp-cta{margin-top:8px;min-height:62px}
+  .offer-line{margin-top:7px;line-height:1.35}
+  .last-call{margin-top:6px}
+  .affiliate-note{margin-top:5px}
+}
